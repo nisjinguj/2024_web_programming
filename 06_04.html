@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // console.log("Hello world");
+        // alert("Hello world");
+        // document.write("<h1>Hello world</h1>");
+        // confirm("Hello world");
+        // let name = prompt("이름을 입력해 주세요", "김선린");
+        function input_add(){
+            let a, b;
+            a = prompt("첫번째 숫자를 입력해 주세요", 10);
+            b = prompt("두번째 숫자를 입력해 주세요", 20);
+            return Number(a) + Number(b);
+        }
+        let num = add();
+
+        document.write(`값은 ${num}입니다`);
+        </script>
+</body>
+</html>
