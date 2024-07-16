@@ -1,0 +1,28 @@
+p{
+    font-family: "Black Han Sans", sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.bakcground .title{
+    font-size: 42px;
+    font-weight: bold;
+    transition: font-size 0.2s;
+}
+
+.background .title:hover{
+    
+}
+
+.background .main-text{
+    margin-top: 10px;
+    font-size: 28px;
+}
